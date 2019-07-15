@@ -80,6 +80,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\WindowsFormsApp.BLL\WindowsFormsApp.BLL.csproj">
+      <Project>{584642db-ffd6-4bd1-b7fe-07e10cd43101}</Project>
+      <Name>WindowsFormsApp.BLL</Name>
+    </ProjectReference>
     <ProjectReference Include="..\WindowsFormsApp.Models\WindowsFormsApp.Models.csproj">
       <Project>{7e1a1341-d5a1-4b27-a689-9215201e738f}</Project>
       <Name>WindowsFormsApp.Models</Name>
